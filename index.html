@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>toDo app</title>
+    </head>
+    <body>
+        <section class="todo__app">
+            <div class="todo__centerapp container">
+                <div class="todo__content ">
+                    <div class="todo__info">
+                        <h2 class="todo__header"><span>For fun and practise</span> Just another ToDo App!</h2>
+                        <p class="todo__info-paragraph">Simple ToDo application. Create, sort by priority and delete tasks.</p>
+                    </div>
+                    <div class="app-component">
+                        <div class="app-component__newTask">
+                            <h3 class="app-component__header">Please enter task details:</h3>
+                            <div class="app-component__info">
+                                <form class="app-component__details">
+                                    <input type="text" class="app-component__title" placeholder="Title" required>
+                                    <textarea class="app-component__note" rows="3" cols="40" maxlength="50" placeholder="Note" required></textarea>
+                                </form>
+                                <div class="app-component__block">
+                                    <div class="app-component__rating-group">
+                                        <h3 class="app-component__rating-info">Please choose the priority:</h3>
+                                        <div class="app-component__rating-stars">
+                                            <input type="radio" checked id="star3" name="star" value="1">
+                                            <label for="star3" class="app-component__rating-stars__low"> Low </label>
+                                            <input type="radio" id="star2" name="star" value="2">
+                                            <label for="star2" class="app-component__rating-stars__medium"> Medium </label>
+                                            <input type="radio" id="star1" name="star" value="3">
+                                            <label for="star1" class="app-component__rating-stars__high"> High </label>
+                                        </div>
+                                    </div>
+                                    <input type="submit" class="app-component__submit" value="Add task">
+                                </div>    
+                            </div>
+                            <div class="app-component__options">
+                                <div class="app-component__check-tasks">
+                                    <h3 class="app-component__check-tasks-label">Check all tasks</h3>   
+                                    <div class="app-component__check-tasks-check">
+                                        <input class="app-component__check-tasks-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                                        <label for="styled-checkbox-1"></label>
+                                    </div>
+                                </div>
+                                <div class="app-component__select">
+                                    <h3 class="app-component__select-label">Select priority</h3>
+                                    <select class="app-component__select-options" name="priority">
+                                        <option value="1">Highest priority</option>
+                                        <option value="2">Lowest priority</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-list__container">
+                            <div class="task-list">
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="app-component__delete">
+                            <button class="app-component__submit delete">Delete</button>
+                        </div>    
+                </div>
+            </div>
+            <div class="todo__background"></div>
+        </section>
+    <script type="text/javascript" src="internal_script/internal_scripts.js"></script>
+    </body>
+</html>
+
+
