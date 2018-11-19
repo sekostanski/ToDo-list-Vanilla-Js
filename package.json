@@ -10,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "overlayscrollbars": "^1.5.3",
+    "simple-scrollbar": "^0.4.0"
   }
 }
